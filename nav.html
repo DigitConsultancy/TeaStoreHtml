@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>All About Coffee</title>
+<style>
+*{
+    margin: 0px;
+    padding: 0px
+}
+#navmenu ul{
+        list-style: none;
+}
+#navmenu ul li{
+        
+        border: 1px solid black;
+        width:120px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        float: left;
+        position: relative;
+    }
+    #navmenu ul li a{
+        text-decoration: none;
+        display: block;
+        
+    }
+
+    #navmenu ul li a:hover{
+        background-color: red;
+    }
+
+    #navmenu ul ul{
+        position: absolute;
+        display: none;
+    }
+    #navmenu ul li:hover > ul{
+        display: block;
+    }
+
+    #navmenu ul ul ul{
+        position: absolute;
+        display: none;
+        margin-left: 120px;
+        top: 0px
+    }
+    
+</style>
+
+</head>
+<body>
+<header>
+<h1>All About Coffee</h1>
+<div id="navmenu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="roasting.html">Roasting</a>
+<ul>
+    <li><a href="grinding.html">Grinding</a></li>
+    <li><a href="brewing.html">Brewing</a>
+        <ul>
+                <li><a href="grinding.html">Grinding</a></li>
+                <li><a href="brewing.html">Brewing</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+            </ul>
+        </li>
+    <li><a href="drinks.html">Drinks</a></li>
+</ul>
+</li>
+<li><a href="grinding.html">Grinding</a></li>
+<li><a href="brewing.html">Brewing</a></li>
+<li><a href="drinks.html">Drinks</a></li>
+<li><a href="survey.html">Coffee Survey</a></li>
+</ul>
+</div>
+</header>
+</body>
+</html>
